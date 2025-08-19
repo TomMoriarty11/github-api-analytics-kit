@@ -1,0 +1,24 @@
+[
+  {
+    "commit": {
+      "author": {
+        "name": "octocat",
+        "email": "octocat@github.com",
+        "date": "2025-08-12T14:23:00Z"
+      },
+      "message": "Initial commit"
+    },
+    "sha": "abc123"
+  },
+  {
+    "commit": {
+      "author": {
+        "name": "octocat",
+        "email": "octocat@github.com",
+        "date": "2025-08-13T09:47:00Z"
+      },
+      "message": "Add README"
+    },
+    "sha": "def456"
+  }
+]
