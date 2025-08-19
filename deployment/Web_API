@@ -1,0 +1,13 @@
+from flask import Flask, jsonify
+from github_api_analytics_kit.github_wrapper import GitHubAPI
+
+app = Flask(__name__)
+api = GitHubAPI()
+
+@app.route("/commits/<owner>/<repo>")
+def get_commits(owner, repo):
+    data = api.get_repo_commits(owner, repo)
+    return jsonify(data)
+
+if __name__ == "__main__":
+    app.run(debug=True)
