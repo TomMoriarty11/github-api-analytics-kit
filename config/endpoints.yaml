@@ -1,0 +1,7 @@
+github:
+  base_url: "https://api.github.com"
+  endpoints:
+    commits: "/repos/{owner}/{repo}/commits"
+    contributors: "/repos/{owner}/{repo}/contributors"
+    repo_info: "/repos/{owner}/{repo}"
+    issues: "/repos/{owner}/{repo}/issues"
