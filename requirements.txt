@@ -1,0 +1,10 @@
+requests           # For making HTTP requests to GitHub API
+pandas             # For data manipulation and aggregation
+python-dotenv      # For securely loading environment variables
+PyYAML             # For reading config/endpoints.yaml
+matplotlib         # For visualizing commit trends (optional)
+pytest             # For running unit tests
+flask              # If you expose analytics via web API
+plotly             # For interactive visualizations
+fastapi            # For modern API deployment
+twine              # For publishing to PyPI
